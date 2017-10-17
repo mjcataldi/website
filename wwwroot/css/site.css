@@ -1,6 +1,7 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
+    background-color: rgba(76, 75, 83, 0.25);
 }
 
 /* Wrapping element */
@@ -24,6 +25,18 @@
 /* QR code generator */
 #qrCode {
     margin: 15px;
+}
+
+.navbar-inverse {
+    background-color: rgba(76, 75, 83, 1.0);
+}
+
+.initial {
+    color: rgba(209, 151, 105, 1.0);
+}
+
+footer {
+    text-align: center;
 }
 
 /* Hide/rearrange for smaller screens */

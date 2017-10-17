@@ -1,0 +1,10 @@
+c:\Users\mcata\OneDrive\Documents\VSCode\website\bin\Debug\netcoreapp2.0\website.deps.json
+c:\Users\mcata\OneDrive\Documents\VSCode\website\bin\Debug\netcoreapp2.0\website.runtimeconfig.json
+c:\Users\mcata\OneDrive\Documents\VSCode\website\bin\Debug\netcoreapp2.0\website.runtimeconfig.dev.json
+c:\Users\mcata\OneDrive\Documents\VSCode\website\bin\Debug\netcoreapp2.0\website.dll
+c:\Users\mcata\OneDrive\Documents\VSCode\website\bin\Debug\netcoreapp2.0\website.pdb
+c:\Users\mcata\OneDrive\Documents\VSCode\website\obj\Debug\netcoreapp2.0\website.csproj.CoreCompileInputs.cache
+c:\Users\mcata\OneDrive\Documents\VSCode\website\obj\Debug\netcoreapp2.0\website.AssemblyInfoInputs.cache
+c:\Users\mcata\OneDrive\Documents\VSCode\website\obj\Debug\netcoreapp2.0\website.AssemblyInfo.cs
+c:\Users\mcata\OneDrive\Documents\VSCode\website\obj\Debug\netcoreapp2.0\website.dll
+c:\Users\mcata\OneDrive\Documents\VSCode\website\obj\Debug\netcoreapp2.0\website.pdb
