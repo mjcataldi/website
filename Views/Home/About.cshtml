@@ -1,7 +1,55 @@
 ﻿@{
     ViewData["Title"] = "About";
+    ViewData["Message"] = "Hi!";
 }
-<h2>@ViewData["Title"]</h2>
-<h3>@ViewData["Message"]</h3>
+@using website.Models;
+@model website.Models.ProgrammingLanguage;
 
-<p>Use this area to provide additional information.</p>
+<div class="container">
+  <div style="font-size: 60pt">Hi!</div>  
+    <p>My name is Matthew Cataldi and here’s my story. I first got bit by the programming bug back in 2013 with my role as Personnel Manager for the Rockford Symphony.  When I started the job, my predecessor handed me a two-paged word document and a spreadsheet of the current roster, that’s all.  After the first few concerts of doing it the “old-school” way, it became clear that there had to be a better way of managing the 70 to 80 musicians than on a spreadsheet.</p>
+    
+    <p>I didn’t know anything about programming at the time, so I picked up a book for Microsoft Access and started tinkering around with it.  About a year and a half later, I knew that this curiosity wasn’t going away anytime soon.  I studied a little and took the 70-461 T-SQL exam.  I studied even more and passed it the second time!  I even started studying C# when my wife mentioned, “Hey hon, have you ever thought about going to camp?”  “Whatever do you mean dearest?” I responded.  “Well it seems like you really like to code, so why not do it everyday?”  What a great idea!  I signed up for DevBootcamp, graduated, and am ready to get into the mix</p>
+    
+    <p>It’s always been a goal of mine to see something that I’ve helped build benefit people in a meaningful way.  On the back of this sheet is my resume.  If you would like to get a more complete picture of my career history, check out my <a href="http://www.linkedin.com/in/matthew-cataldi" target="_blank">LinkedIn Page</a> or email/call me and we can chew the fat.</p>
+</div>
+
+<hr />
+
+<div class="skills">
+  <div style="font-size: 24pt; text-align: center;">To get more of a sense of my current knowledge and abilities as a software developer, take a look below.</div>
+  
+  <div class="rankings">
+    <h3>Languages</h3>
+    <ol class="col-sm-6">
+        @{
+          foreach(ProgrammingLanguage language in languages)
+          {
+            <li>@language.Name</li>
+          }
+        }
+    </ol>
+  </div>
+  
+  <div class="rankings">
+    <h3>Libraries</h3>
+    <ol class="col-sm-6">
+      <li><div>C# <input type="range" value="3" min="1" max ="5"/></div></li>
+      <li><div>VB.NET <input type="range" value="2" min="1" max ="5"/></div></li>
+      <li><div>PHP <input type="range" value="2" min="1" max ="5"/></div></li>
+      <li><div>VBA <input type="range" value="4" min="1" max ="5"/></div></li>
+      <li><div>Ruby <input type="range" value="1" min="1" max ="5"/></div></li>
+    </ol>
+  </div>
+
+  <div class="rankings">
+    <h3>Languages</h3>
+    <ol class="col-sm-6">
+      <li><div>C# <input type="range" value="3" min="1" max ="5"/></div></li>
+      <li><div>VB.NET <input type="range" value="2" min="1" max ="5"/></div></li>
+      <li><div>PHP <input type="range" value="2" min="1" max ="5"/></div></li>
+      <li><div>VBA <input type="range" value="4" min="1" max ="5"/></div></li>
+      <li><div>Ruby <input type="range" value="1" min="1" max ="5"/></div></li>
+    </ol>
+  </div>
+</div>
