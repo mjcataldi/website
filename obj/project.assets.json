@@ -12539,11 +12539,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "c:\\Users\\mcata\\OneDrive\\Documents\\VSCode Projects\\website\\website.csproj",
       "projectName": "website",
       "projectPath": "c:\\Users\\mcata\\OneDrive\\Documents\\VSCode Projects\\website\\website.csproj",
       "packagesPath": "C:\\Users\\mcata\\.nuget\\packages\\",
       "outputPath": "c:\\Users\\mcata\\OneDrive\\Documents\\VSCode Projects\\website\\obj\\",
+=======
+      "projectUniqueName": "c:\\Users\\mcata\\OneDrive\\Documents\\VSCode\\website\\website.csproj",
+      "projectName": "website",
+      "projectPath": "c:\\Users\\mcata\\OneDrive\\Documents\\VSCode\\website\\website.csproj",
+      "packagesPath": "C:\\Users\\mcata\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\mcata\\OneDrive\\Documents\\VSCode\\website\\obj\\",
+>>>>>>> 5a6e456a68f92188dbf7e214e8dee99eeb9245b2
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

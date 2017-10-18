@@ -19,7 +19,14 @@ namespace website.Controllers
         {
             ViewData["Message"] = "Your application description page.";
 
-            return View();
+            List<ProgrammingLanguage> languages = new List<ProgrammingLanguage>(){
+                new ProgrammingLanguage("C#", new DateTime(2014, 10, 25)),
+                new ProgrammingLanguage("VB.NET", new DateTime(2014, 10, 25)),
+                new ProgrammingLanguage("VBA", new DateTime(2013, 07, 25)),
+                new ProgrammingLanguage("Ruby", new DateTime(2016, 12, 21)),
+            };
+
+            return View(languages);
         }
 
         public IActionResult Contact()
